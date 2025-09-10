@@ -2,50 +2,67 @@ body{
     background-color: rgba(13, 14, 13, 0.917);
     color: rgb(245, 245, 240);
     font-family: fantasy; 
+    margin-left: 0px;
+    margin-right: 0px;
 }
 h1{
     text-align: center;
     font-size: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 h2{
     text-align: center;
     font-size: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 h3{
     text-align: center;
     font-size: 16px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 p{
     text-align: center;
     font-size: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 ul{
+    list-style-position: inside;
     text-align: center;
+    padding: 0;
     font-size: 20px;
 }
-li{
+div{
     text-align: center;
 }
 
 img{
     display: block;
-    max-width: 500px;
+    max-width: 400px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
 }
-.lista{
+.lista ul{
     list-style-position:inside;
     padding: 0;
     margin: 0;
-    display: insideblock;
-    text-align: left;
+    display: inline-block;
+    text-align: start;
 }
-.hobby{
+.om, .lista{
     margin-bottom: 40px;
     padding: 40px;
     color: white;
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
 }
+
 .cv{
     margin-bottom: 40px;
     padding: 20px;
@@ -54,5 +71,15 @@ img{
 }
 .chas{
     margin-bottom: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
     padding: 20px;
+}
+.two-columns{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
